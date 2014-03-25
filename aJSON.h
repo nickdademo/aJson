@@ -60,7 +60,8 @@ typedef struct aJsonObject {
 	union {
 		char *valuestring; // The item's string, if type==aJson_String
 		char valuebool; //the items value for true & false
-		int valueint; // The item's number, if type==aJson_Number
+		/* Can it be a long variable to support greater values? */
+		long valueint; // The item's number, if type==aJson_Number
 		double valuefloat; // The item's number, if type==aJson_Number
 	};
 } aJsonObject;
