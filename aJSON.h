@@ -28,7 +28,7 @@
 #include <Print.h>
 #include <Stream.h>
 #include <Client.h>
-#include <Arduino.h>  // To get access to the Arduino millis() function
+#include <Waspmote.h>  // To get access to the Arduino millis() function
 
 /******************************************************************************
  * Definitions
